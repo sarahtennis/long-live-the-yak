@@ -1,0 +1,27 @@
+{
+  "name": "yak",
+  "version": "1.0.0",
+  "description": "Long live the yak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahtennis/long-live-the-yak.git"
+  },
+  "keywords": [
+    "yak"
+  ],
+  "author": "Sarah and Jeff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahtennis/long-live-the-yak/issues"
+  },
+  "homepage": "https://github.com/sarahtennis/long-live-the-yak#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5",
+    "node": "^12.1.0"
+  }
+}
