@@ -9,15 +9,15 @@ const Schema = mongoose.Schema;
 * Avatar: string
 */
 const UserSchema = new Schema({
+  // hash this
   firebase_id: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
+  // hash this
   email: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   avatar: {
     type: String,
