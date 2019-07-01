@@ -1,0 +1,16 @@
+// Colors
+$main-red: #9e2442;
+$white: #ffffff;
+
+// Fonts
+@font-face {
+  font-family: "Avenir LT Std 55 Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 55 Roman"),
+    url("fonts/AvenirLTStd-Black.woff") format("woff");
+}
+
+// Authentication views
+$auth-bg: $main-red;
+$sign-up-bg: $white;
